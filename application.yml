@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: root
+    password: welcome
+  jpa:
+    hibernate:
+      ddl-auto: update
+eureka:
+  client:
+      service-url:
+          defaultZone: http://localhost:2222/eureka
